@@ -14,6 +14,7 @@ key = '[EX\xc8\xd5\xbfI{\xa2$\x05(\xd5\x18\xbf\xc0\x85)\x10nc\x94\x02)j\xdf\xcb\
  
 def encrypt(jsonBody):
    print("Inside encrypt function")
+   print('Edited in Git Hub")
    print("raw jsonBody :: {}".format(jsonBody))
    #print("encode utf-8 :: {}".format(jsonBody.encode("utf-8")))
    private_key = hashlib.sha256(key.encode("utf-8")).digest()
