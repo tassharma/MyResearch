@@ -33,7 +33,7 @@ def decrypt(enc):
  
  
 # First let us encrypt secret message
-encrypted = encrypt("This is a secret message")
+encrypted = encrypt("This is a highly secret message")
 print(encrypted)
  
 decrypted = decrypt(encrypted) 
