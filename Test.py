@@ -6,11 +6,7 @@ import json
 #queue = sqs.get_queue_by_name(QueueName='RedoxReceiveMessageQueue.fifo')
 #print (queue.url)
 
-client = boto3.client(
-    'sqs',
-    aws_access_key_id='AKIAYJO7PXPBAU5LCDEE',
-    aws_secret_access_key='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'
-)
+
 payload = json.dumps({
        "id": 0,
        "petId": "Tiger",
